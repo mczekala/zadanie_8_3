@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npm-run-all test:*",
     "test:html": "nu-html-checker *.html",
-    "test:js": "jshint js/*.js",
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdir -p sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
